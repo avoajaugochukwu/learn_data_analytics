@@ -1,5 +1,3 @@
-for i in range(1, 100):
-	if i%2 == 0:
-		print 'Even', i
-	else:
-		print 'Odd', i
+from pylab import *
+
+plot(arrange(5))
